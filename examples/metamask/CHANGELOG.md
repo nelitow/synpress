@@ -1,5 +1,13 @@
 # example-new-dawn
 
+## 0.0.1-alpha.10
+
+### Patch Changes
+
+- Alpha Release
+- Updated dependencies
+  - @synthetixio/synpress@4.0.0-alpha.10
+
 ## 0.0.1-alpha.9
 
 ### Patch Changes

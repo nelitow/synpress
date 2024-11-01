@@ -12,5 +12,7 @@
     "@synthetixio/ethereum-wallet-mock": "0.0.1-alpha.9",
     "@synthetixio/synpress-metamask": "0.0.1-alpha.9"
   },
-  "changesets": []
+  "changesets": [
+    "shy-clouds-dream"
+  ]
 }
