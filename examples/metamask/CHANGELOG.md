@@ -1,4 +1,4 @@
-# example-new-dawn
+# example-metamask
 
 ## 0.0.3
 

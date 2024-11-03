@@ -3,7 +3,7 @@ name: 🧑‍🔧 Test
 on:
   push:
     branches:
-      - new-dawn
+      - dev
   pull_request:
     paths:
       - '.github/actions/**/*.yml'

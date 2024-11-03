@@ -1,4 +1,4 @@
-# example-new-dawn
+# example-ethereum-wallet-mock
 
 ## 0.0.3
 

@@ -3,7 +3,7 @@ name: 🎨 Lint
 on:
   push:
     branches:
-      - new-dawn
+      - dev
   pull_request:
 
 jobs:

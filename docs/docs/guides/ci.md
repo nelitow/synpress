@@ -14,4 +14,4 @@ Running Synpress on CI is very similar to running Playwright on CI. The only dif
 The `xvfb-run` is required here in both steps because Synpress and Playwright must run in the headful mode on CI. See the [Known Issues](/docs/known-issues) section for an explanation of why this is the case.
 :::
 
-For a complete example of a CI configuration, see [this file](https://github.com/Synthetixio/synpress/blob/new-dawn/.github/workflows/test.yml#L30), which we use internally to run Synpress tests on GitHub Actions.
+For a complete example of a CI configuration, see [this file](https://github.com/Synthetixio/synpress/blob/dev/.github/workflows/test.yml#L30), which we use internally to run Synpress tests on GitHub Actions.
