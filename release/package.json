@@ -22,6 +22,7 @@
   },
   "bin": "./dist/cli.js",
   "files": [
+    "README.md",
     "dist",
     "src",
     "types"
