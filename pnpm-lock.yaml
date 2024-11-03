@@ -73,8 +73,8 @@ importers:
         specifier: 8.1.0
         version: 8.1.0
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.1
-        version: 0.0.1
+        specifier: 0.0.2
+        version: 0.0.2
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
@@ -104,8 +104,8 @@ importers:
         specifier: 8.1.0
         version: 8.1.0
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.1
-        version: 0.0.1
+        specifier: 0.0.2
+        version: 0.0.2
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
@@ -159,8 +159,8 @@ importers:
         version: 3.22.4
     devDependencies:
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.1
-        version: 0.0.1
+        specifier: 0.0.2
+        version: 0.0.2
       '@types/archiver':
         specifier: 6.0.2
         version: 6.0.2
@@ -208,8 +208,8 @@ importers:
         version: 1.48.2
     devDependencies:
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.1
-        version: 0.0.1
+        specifier: 0.0.2
+        version: 0.0.2
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
@@ -234,18 +234,18 @@ importers:
         specifier: workspace:*
         version: link:../wallets/ethereum-wallet-mock
       '@synthetixio/synpress-cache':
-        specifier: 0.0.1
-        version: 0.0.1(playwright-core@1.48.2)(postcss@8.4.41)(typescript@5.3.3)
+        specifier: 0.0.2
+        version: 0.0.2(playwright-core@1.48.2)(postcss@8.4.41)(typescript@5.3.3)
       '@synthetixio/synpress-core':
-        specifier: 0.0.1
-        version: 0.0.1(@playwright/test@1.48.2)
+        specifier: 0.0.2
+        version: 0.0.2(@playwright/test@1.48.2)
       '@synthetixio/synpress-metamask':
         specifier: workspace:*
         version: link:../wallets/metamask
     devDependencies:
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.1
-        version: 0.0.1
+        specifier: 0.0.2
+        version: 0.0.2
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
@@ -274,15 +274,15 @@ importers:
         specifier: 1.48.2
         version: 1.48.2
       '@synthetixio/synpress-core':
-        specifier: 0.0.1
-        version: 0.0.1(@playwright/test@1.48.2)
+        specifier: 0.0.2
+        version: 0.0.2(@playwright/test@1.48.2)
       viem:
         specifier: 2.9.9
         version: 2.9.9(typescript@5.3.3)(zod@3.22.4)
     devDependencies:
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.1
-        version: 0.0.1
+        specifier: 0.0.2
+        version: 0.0.2
       '@types/node':
         specifier: 20.11.17
         version: 20.11.17
@@ -324,8 +324,8 @@ importers:
         version: 3.22.4
     devDependencies:
       '@synthetixio/synpress-tsconfig':
-        specifier: 0.0.1
-        version: 0.0.1
+        specifier: 0.0.2
+        version: 0.0.2
       '@types/fs-extra':
         specifier: 11.0.4
         version: 11.0.4
@@ -1401,19 +1401,19 @@ packages:
     resolution: {integrity: sha512-TV7t8GKYaJWsn00tFDqBw8+Uqmr8A0fRU1tvTQhyZzGv0sJCGRQL3JGMI3ucuKo3XIZdUP+Lx7/gh2t3lewy7g==}
     engines: {node: '>=14.16'}
 
-  '@synthetixio/synpress-cache@0.0.1':
-    resolution: {integrity: sha512-W6xPH7g+RBrkJ3HO0ynsqkreM7t9rIsFL0wL0QKFqQaAVGiBwJLOHJQsrpTk3U4YypVvx0Qfm4F1S+FYo3mgJA==}
+  '@synthetixio/synpress-cache@0.0.2':
+    resolution: {integrity: sha512-LxOueOFyOY6292HWkoTB0hZZzO63UPDL5Zi3zvZTRe20yOczDb+egS4rVSbS5nAAK3HlPv8kwrwpyDDTzbg4/g==}
     hasBin: true
     peerDependencies:
-      playwright-core: 1.44.0
+      playwright-core: 1.48.2
 
-  '@synthetixio/synpress-core@0.0.1':
-    resolution: {integrity: sha512-dC/pCEqGKEZl9hD80logFEoOwrWOxFFL9XDlbXxfIPNfKDT0dPszRJpKRDZQuegpLqlqZP0VoA7lAYmLhm4M3g==}
+  '@synthetixio/synpress-core@0.0.2':
+    resolution: {integrity: sha512-wFEoXOXE84jfVqU8bcUug5xXpz7Be2tJFkfmfO6VVQV4FxzRt51qAvpCItTtHAsTCv0NNIYAA9r1qk/pDOGPdw==}
     peerDependencies:
-      '@playwright/test': 1.44.0
+      '@playwright/test': 1.48.2
 
-  '@synthetixio/synpress-tsconfig@0.0.1':
-    resolution: {integrity: sha512-ALnon7q/HWddUSbXRAGdfvTjq7cTs3v5j58yiOloyZkxOM2us3uAFcVrBZlU48/oLfXQxBVV9f2WoCnw1O3W+A==}
+  '@synthetixio/synpress-tsconfig@0.0.2':
+    resolution: {integrity: sha512-KHkh3IHwA0I1P9MQuRkSELgceH3JX/QJHHpN+oME/Boq5owhH5XD+MVS749UtcvL0Of03QAwar9nxgj8eaZV6Q==}
 
   '@szmarczak/http-timer@5.0.1':
     resolution: {integrity: sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw==}
@@ -6225,7 +6225,7 @@ snapshots:
 
   '@sindresorhus/is@5.6.0': {}
 
-  '@synthetixio/synpress-cache@0.0.1(playwright-core@1.48.2)(postcss@8.4.41)(typescript@5.3.3)':
+  '@synthetixio/synpress-cache@0.0.2(playwright-core@1.48.2)(postcss@8.4.41)(typescript@5.3.3)':
     dependencies:
       axios: 1.6.7
       chalk: 5.3.0
@@ -6248,11 +6248,11 @@ snapshots:
       - ts-node
       - typescript
 
-  '@synthetixio/synpress-core@0.0.1(@playwright/test@1.48.2)':
+  '@synthetixio/synpress-core@0.0.2(@playwright/test@1.48.2)':
     dependencies:
       '@playwright/test': 1.48.2
 
-  '@synthetixio/synpress-tsconfig@0.0.1': {}
+  '@synthetixio/synpress-tsconfig@0.0.2': {}
 
   '@szmarczak/http-timer@5.0.1':
     dependencies:
