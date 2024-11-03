@@ -14,7 +14,7 @@
     "test:playwright:headless:ui": "HEADLESS=true playwright test --ui"
   },
   "dependencies": {
-    "@playwright/test": "1.44.0",
+    "@playwright/test": "1.48.2",
     "@synthetixio/synpress": "workspace:*",
     "dotenv": "16.4.2"
   },
@@ -22,7 +22,7 @@
     "@metamask/test-dapp": "8.1.0",
     "@synthetixio/synpress-tsconfig": "0.0.1",
     "@types/node": "20.11.17",
-    "cypress": "13.13.0",
+    "cypress": "13.15.1",
     "serve": "14.2.1",
     "typescript": "5.3.3"
   }

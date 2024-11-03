@@ -79,8 +79,8 @@ importers:
         specifier: 20.11.17
         version: 20.11.17
       cypress:
-        specifier: 13.13.0
-        version: 13.13.0
+        specifier: 13.15.1
+        version: 13.15.1
       serve:
         specifier: 14.2.1
         version: 14.2.1
@@ -91,8 +91,8 @@ importers:
   examples/metamask:
     dependencies:
       '@playwright/test':
-        specifier: 1.44.0
-        version: 1.44.0
+        specifier: 1.48.2
+        version: 1.48.2
       '@synthetixio/synpress':
         specifier: workspace:*
         version: link:../../release
@@ -110,8 +110,8 @@ importers:
         specifier: 20.11.17
         version: 20.11.17
       cypress:
-        specifier: 13.13.0
-        version: 13.13.0
+        specifier: 13.15.1
+        version: 13.15.1
       serve:
         specifier: 14.2.1
         version: 14.2.1
@@ -143,8 +143,8 @@ importers:
         specifier: 2.0.2
         version: 2.0.2
       playwright-core:
-        specifier: 1.44.0
-        version: 1.44.0
+        specifier: 1.48.2
+        version: 1.48.2
       progress:
         specifier: 2.0.3
         version: 2.0.3
@@ -204,8 +204,8 @@ importers:
   packages/core:
     dependencies:
       '@playwright/test':
-        specifier: 1.44.0
-        version: 1.44.0
+        specifier: 1.48.2
+        version: 1.48.2
     devDependencies:
       '@synthetixio/synpress-tsconfig':
         specifier: 0.0.1
@@ -228,17 +228,17 @@ importers:
   release:
     dependencies:
       '@playwright/test':
-        specifier: 1.44.0
-        version: 1.44.0
+        specifier: 1.48.2
+        version: 1.48.2
       '@synthetixio/ethereum-wallet-mock':
         specifier: workspace:*
         version: link:../wallets/ethereum-wallet-mock
       '@synthetixio/synpress-cache':
         specifier: 0.0.1
-        version: 0.0.1(playwright-core@1.44.0)(postcss@8.4.41)(typescript@5.3.3)
+        version: 0.0.1(playwright-core@1.48.2)(postcss@8.4.41)(typescript@5.3.3)
       '@synthetixio/synpress-core':
         specifier: 0.0.1
-        version: 0.0.1(@playwright/test@1.44.0)
+        version: 0.0.1(@playwright/test@1.48.2)
       '@synthetixio/synpress-metamask':
         specifier: workspace:*
         version: link:../wallets/metamask
@@ -271,11 +271,11 @@ importers:
         specifier: ^14.17.0
         version: 14.18.0
       '@playwright/test':
-        specifier: 1.44.0
-        version: 1.44.0
+        specifier: 1.48.2
+        version: 1.48.2
       '@synthetixio/synpress-core':
         specifier: 0.0.1
-        version: 0.0.1(@playwright/test@1.44.0)
+        version: 0.0.1(@playwright/test@1.48.2)
       viem:
         specifier: 2.9.9
         version: 2.9.9(typescript@5.3.3)(zod@3.22.4)
@@ -290,8 +290,8 @@ importers:
         specifier: 1.2.2
         version: 1.2.2(vitest@1.2.2(@types/node@20.11.17))
       cypress:
-        specifier: 13.9.0
-        version: 13.9.0
+        specifier: 13.15.1
+        version: 13.15.1
       rimraf:
         specifier: 5.0.5
         version: 5.0.5
@@ -305,8 +305,8 @@ importers:
   wallets/metamask:
     dependencies:
       '@playwright/test':
-        specifier: 1.44.0
-        version: 1.44.0
+        specifier: 1.48.2
+        version: 1.48.2
       '@synthetixio/synpress-cache':
         specifier: workspace:*
         version: link:../../packages/cache
@@ -336,8 +336,8 @@ importers:
         specifier: 1.2.2
         version: 1.2.2(vitest@1.2.2(@types/node@20.11.17))
       cypress:
-        specifier: 13.13.0
-        version: 13.13.0
+        specifier: 13.15.1
+        version: 13.15.1
       rimraf:
         specifier: 5.0.5
         version: 5.0.5
@@ -567,8 +567,8 @@ packages:
     resolution: {integrity: sha512-PXDQXkAmiMEG162Bqdh9ChML/GJZo6vU+7F03ALKDK8zYc6SuAr47LjG7hGYRqUOz+WK0dU7bQ0xzuqFMdxzeQ==}
     engines: {node: '>=v14'}
 
-  '@cypress/request@3.0.1':
-    resolution: {integrity: sha512-TWivJlJi8ZDx2wGOw1dbLuHJKUYX7bWySw377nlnGOW3hP9/MUKIsEdXT/YngWxVdgNCHRBmFlBipE+5/2ZZlQ==}
+  '@cypress/request@3.0.6':
+    resolution: {integrity: sha512-fi0eVdCOtKu5Ed6+E8mYxUF6ZTFJDZvHogCBelM0xVXmrDEkyM22gRArQzq1YcHPm1V47Vf/iAD+WgVdUlJCGg==}
     engines: {node: '>= 6'}
 
   '@cypress/xvfb@1.2.4':
@@ -1266,9 +1266,9 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@playwright/test@1.44.0':
-    resolution: {integrity: sha512-rNX5lbNidamSUorBhB4XZ9SQTjAqfe5M+p37Z8ic0jPFBMo5iCtQz1kRWkEMg+rYOKSlVycpQmpqjSFq7LXOfg==}
-    engines: {node: '>=16'}
+  '@playwright/test@1.48.2':
+    resolution: {integrity: sha512-54w1xCWfXuax7dz4W2M9uw0gDyh+ti/0K/MxcCUxChFh37kkdxPdfZDw5QBbuPUJHr1CiHJ1hXgSs+GgeQc5Zw==}
+    engines: {node: '>=18'}
     hasBin: true
 
   '@pnpm/config.env-replace@1.1.0':
@@ -2214,13 +2214,8 @@ packages:
     resolution: {integrity: sha512-QTaY0XjjhTQOdguARF0lGKm5/mEq9PD9/VhZZegHDIBq2tQwgNpHc3dneD4mGo2iJs+fTKv5Bp0fZ+BRuY3Z0g==}
     engines: {node: '>= 0.1.90'}
 
-  cypress@13.13.0:
-    resolution: {integrity: sha512-ou/MQUDq4tcDJI2FsPaod2FZpex4kpIK43JJlcBgWrX8WX7R/05ZxGTuxedOuZBfxjZxja+fbijZGyxiLP6CFA==}
-    engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
-    hasBin: true
-
-  cypress@13.9.0:
-    resolution: {integrity: sha512-atNjmYfHsvTuCaxTxLZr9xGoHz53LLui3266WWxXJHY7+N6OdwJdg/feEa3T+buez9dmUXHT1izCOklqG82uCQ==}
+  cypress@13.15.1:
+    resolution: {integrity: sha512-DwUFiKXo4lef9kA0M4iEhixFqoqp2hw8igr0lTqafRb9qtU3X0XGxKbkSYsUFdkrAkphc7MPDxoNPhk5pj9PVg==}
     engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
 
@@ -2585,10 +2580,6 @@ packages:
     resolution: {integrity: sha512-yDYSgNMraqvnxiEXO4hi88+YZxaHC6QKzb5N84iRCTDeRO7ZALpir/lVmf/uXUhnwUr2O4HU8s/n6x+yNjQkHw==}
     engines: {node: '>= 14.17'}
 
-  form-data@2.3.3:
-    resolution: {integrity: sha512-1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ==}
-    engines: {node: '>= 0.12'}
-
   form-data@4.0.0:
     resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
     engines: {node: '>= 6'}
@@ -2845,8 +2836,8 @@ packages:
     resolution: {integrity: sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==}
     engines: {node: '>=8.0.0'}
 
-  http-signature@1.3.6:
-    resolution: {integrity: sha512-3adrsD6zqo4GsTqtO7FyrejHNv+NgiIfAfv68+jVlFmSr9OGy7zrxONceFRLKvnnZA5jbxQBX1u9PpB6Wi32Gw==}
+  http-signature@1.4.0:
+    resolution: {integrity: sha512-G5akfn7eKbpDN+8nPS/cb57YeA1jLTVxjpCj7tmm3QKPdyDy7T+qSC40e9ptydSWvkwjSXw1VbkpyEm39ukeAg==}
     engines: {node: '>=0.10'}
 
   http2-wrapper@2.2.1:
@@ -3846,14 +3837,14 @@ packages:
   pkg-types@1.2.0:
     resolution: {integrity: sha512-+ifYuSSqOQ8CqP4MbZA5hDpb97n3E8SVWdJe+Wms9kj745lmd3b7EZJiqvmLwAlmRfjrI7Hi5z3kdBJ93lFNPA==}
 
-  playwright-core@1.44.0:
-    resolution: {integrity: sha512-ZTbkNpFfYcGWohvTTl+xewITm7EOuqIqex0c7dNZ+aXsbrLj0qI8XlGKfPpipjm0Wny/4Lt4CJsWJk1stVS5qQ==}
-    engines: {node: '>=16'}
+  playwright-core@1.48.2:
+    resolution: {integrity: sha512-sjjw+qrLFlriJo64du+EK0kJgZzoQPsabGF4lBvsid+3CNIZIYLgnMj9V6JY5VhM2Peh20DJWIVpVljLLnlawA==}
+    engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.44.0:
-    resolution: {integrity: sha512-F9b3GUCLQ3Nffrfb6dunPOkE5Mh68tR7zN32L4jCk4FjQamgesGay7/dAAe1WaMEGV04DkdJfcJzjoCKygUaRQ==}
-    engines: {node: '>=16'}
+  playwright@1.48.2:
+    resolution: {integrity: sha512-NjYvYgp4BPmiwfe31j4gHLa3J7bD2WiBz8Lk2RoSsmX38SVIARZ18VYjxLjAcDsAhA+F4iSEXTSGgjua0rrlgQ==}
+    engines: {node: '>=18'}
     hasBin: true
 
   possible-typed-array-names@1.0.0:
@@ -3939,9 +3930,6 @@ packages:
   pseudomap@1.0.2:
     resolution: {integrity: sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==}
 
-  psl@1.9.0:
-    resolution: {integrity: sha512-E/ZsdU4HLs/68gYzgGTkMicWTLPdAftJLfJFlLUAAKZGkStNU72sZjT66SnMDVOfOWY/YAoiD7Jxa9iHvngcag==}
-
   pump@3.0.0:
     resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==}
 
@@ -3956,12 +3944,9 @@ packages:
     resolution: {integrity: sha512-FLpr4flz5xZTSJxSeaheeMKN/EDzMdK7b8PTOC6a5PYFKTucWbdqjgqaEyH0shFiSJrVB1+Qqi4Tk19ccU6Aug==}
     engines: {node: '>=12.20'}
 
-  qs@6.10.4:
-    resolution: {integrity: sha512-OQiU+C+Ds5qiH91qh/mg0w+8nwQuLjM4F4M/PbmhDOoYehPh+Fb0bDjtR1sOvy7YKxvj28Y/M0PhP5uVX0kB+g==}
+  qs@6.13.0:
+    resolution: {integrity: sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==}
     engines: {node: '>=0.6'}
-
-  querystringify@2.2.0:
-    resolution: {integrity: sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==}
 
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
@@ -4516,6 +4501,13 @@ packages:
     resolution: {integrity: sha512-KYad6Vy5VDWV4GH3fjpseMQ/XU2BhIYP7Vzd0LG44qRWm/Yt2WCOTicFdvmgo6gWaqooMQCawTtILVQJupKu7A==}
     engines: {node: '>=14.0.0'}
 
+  tldts-core@6.1.58:
+    resolution: {integrity: sha512-dR936xmhBm7AeqHIhCWwK765gZ7dFyL+IqLSFAjJbFlUXGMLCb8i2PzlzaOuWBuplBTaBYseSb565nk/ZEM0Bg==}
+
+  tldts@6.1.58:
+    resolution: {integrity: sha512-MQJrJhjHOYGYb8DobR6Y4AdDbd4TYkyQ+KBDVc5ODzs1cbrvPpfN1IemYi9jfipJ/vR1YWvrDli0hg1y19VRoA==}
+    hasBin: true
+
   tmp@0.0.33:
     resolution: {integrity: sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw==}
     engines: {node: '>=0.6.0'}
@@ -4532,9 +4524,9 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
-  tough-cookie@4.1.4:
-    resolution: {integrity: sha512-Loo5UUvLD9ScZ6jh8beX1T6sO1w2/MpCRpEP7V280GKMVUQ0Jzar2U3UJPsrdbziLEMMhu3Ujnq//rhiFuIeag==}
-    engines: {node: '>=6'}
+  tough-cookie@5.0.0:
+    resolution: {integrity: sha512-FRKsF7cz96xIIeMZ82ehjC3xW2E+O2+v11udrDYewUbszngYhsGa8z6YUMMzO9QJZzzyd0nGGXnML/TReX6W8Q==}
+    engines: {node: '>=16'}
 
   tr46@1.0.1:
     resolution: {integrity: sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==}
@@ -4733,10 +4725,6 @@ packages:
     resolution: {integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==}
     engines: {node: '>= 4.0.0'}
 
-  universalify@0.2.0:
-    resolution: {integrity: sha512-CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==}
-    engines: {node: '>= 4.0.0'}
-
   universalify@2.0.1:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
@@ -4757,9 +4745,6 @@ packages:
 
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
-
-  url-parse@1.5.10:
-    resolution: {integrity: sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==}
 
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
@@ -5407,7 +5392,7 @@ snapshots:
     dependencies:
       chalk: 4.1.2
 
-  '@cypress/request@3.0.1':
+  '@cypress/request@3.0.6':
     dependencies:
       aws-sign2: 0.7.0
       aws4: 1.13.1
@@ -5415,16 +5400,16 @@ snapshots:
       combined-stream: 1.0.8
       extend: 3.0.2
       forever-agent: 0.6.1
-      form-data: 2.3.3
-      http-signature: 1.3.6
+      form-data: 4.0.0
+      http-signature: 1.4.0
       is-typedarray: 1.0.0
       isstream: 0.1.2
       json-stringify-safe: 5.0.1
       mime-types: 2.1.35
       performance-now: 2.1.0
-      qs: 6.10.4
+      qs: 6.13.0
       safe-buffer: 5.2.1
-      tough-cookie: 4.1.4
+      tough-cookie: 5.0.0
       tunnel-agent: 0.6.0
       uuid: 8.3.2
 
@@ -6130,9 +6115,9 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@playwright/test@1.44.0':
+  '@playwright/test@1.48.2':
     dependencies:
-      playwright: 1.44.0
+      playwright: 1.48.2
 
   '@pnpm/config.env-replace@1.1.0': {}
 
@@ -6240,7 +6225,7 @@ snapshots:
 
   '@sindresorhus/is@5.6.0': {}
 
-  '@synthetixio/synpress-cache@0.0.1(playwright-core@1.44.0)(postcss@8.4.41)(typescript@5.3.3)':
+  '@synthetixio/synpress-cache@0.0.1(playwright-core@1.48.2)(postcss@8.4.41)(typescript@5.3.3)':
     dependencies:
       axios: 1.6.7
       chalk: 5.3.0
@@ -6249,7 +6234,7 @@ snapshots:
       fs-extra: 11.2.0
       glob: 10.3.10
       gradient-string: 2.0.2
-      playwright-core: 1.44.0
+      playwright-core: 1.48.2
       progress: 2.0.3
       tsup: 8.0.2(postcss@8.4.41)(typescript@5.3.3)
       unzipper: 0.10.14
@@ -6263,9 +6248,9 @@ snapshots:
       - ts-node
       - typescript
 
-  '@synthetixio/synpress-core@0.0.1(@playwright/test@1.44.0)':
+  '@synthetixio/synpress-core@0.0.1(@playwright/test@1.48.2)':
     dependencies:
-      '@playwright/test': 1.44.0
+      '@playwright/test': 1.48.2
 
   '@synthetixio/synpress-tsconfig@0.0.1': {}
 
@@ -7163,9 +7148,9 @@ snapshots:
       csv-stringify: 5.6.5
       stream-transform: 2.1.3
 
-  cypress@13.13.0:
+  cypress@13.15.1:
     dependencies:
-      '@cypress/request': 3.0.1
+      '@cypress/request': 3.0.6
       '@cypress/xvfb': 1.2.4(supports-color@8.1.1)
       '@types/sinonjs__fake-timers': 8.1.1
       '@types/sizzle': 2.3.8
@@ -7205,51 +7190,7 @@ snapshots:
       semver: 7.6.3
       supports-color: 8.1.1
       tmp: 0.2.3
-      untildify: 4.0.0
-      yauzl: 2.10.0
-
-  cypress@13.9.0:
-    dependencies:
-      '@cypress/request': 3.0.1
-      '@cypress/xvfb': 1.2.4(supports-color@8.1.1)
-      '@types/sinonjs__fake-timers': 8.1.1
-      '@types/sizzle': 2.3.8
-      arch: 2.2.0
-      blob-util: 2.0.2
-      bluebird: 3.7.2
-      buffer: 5.7.1
-      cachedir: 2.4.0
-      chalk: 4.1.2
-      check-more-types: 2.24.0
-      cli-cursor: 3.1.0
-      cli-table3: 0.6.5
-      commander: 6.2.1
-      common-tags: 1.8.2
-      dayjs: 1.11.13
-      debug: 4.3.6(supports-color@8.1.1)
-      enquirer: 2.4.1
-      eventemitter2: 6.4.7
-      execa: 4.1.0
-      executable: 4.1.1
-      extract-zip: 2.0.1(supports-color@8.1.1)
-      figures: 3.2.0
-      fs-extra: 9.1.0
-      getos: 3.2.1
-      is-ci: 3.0.1
-      is-installed-globally: 0.4.0
-      lazy-ass: 1.6.0
-      listr2: 3.14.0(enquirer@2.4.1)
-      lodash: 4.17.21
-      log-symbols: 4.1.0
-      minimist: 1.2.8
-      ospath: 1.2.2
-      pretty-bytes: 5.6.0
-      process: 0.11.10
-      proxy-from-env: 1.0.0
-      request-progress: 3.0.0
-      semver: 7.6.3
-      supports-color: 8.1.1
-      tmp: 0.2.3
+      tree-kill: 1.2.2
       untildify: 4.0.0
       yauzl: 2.10.0
 
@@ -7762,12 +7703,6 @@ snapshots:
 
   form-data-encoder@2.1.4: {}
 
-  form-data@2.3.3:
-    dependencies:
-      asynckit: 0.4.0
-      combined-stream: 1.0.8
-      mime-types: 2.1.35
-
   form-data@4.0.0:
     dependencies:
       asynckit: 0.4.0
@@ -8051,7 +7986,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  http-signature@1.3.6:
+  http-signature@1.4.0:
     dependencies:
       assert-plus: 1.0.0
       jsprim: 2.0.2
@@ -9069,11 +9004,11 @@ snapshots:
       mlly: 1.7.1
       pathe: 1.1.2
 
-  playwright-core@1.44.0: {}
+  playwright-core@1.48.2: {}
 
-  playwright@1.44.0:
+  playwright@1.48.2:
     dependencies:
-      playwright-core: 1.44.0
+      playwright-core: 1.48.2
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -9139,8 +9074,6 @@ snapshots:
 
   pseudomap@1.0.2: {}
 
-  psl@1.9.0: {}
-
   pump@3.0.0:
     dependencies:
       end-of-stream: 1.4.4
@@ -9154,11 +9087,9 @@ snapshots:
     dependencies:
       escape-goat: 4.0.0
 
-  qs@6.10.4:
+  qs@6.13.0:
     dependencies:
       side-channel: 1.0.6
-
-  querystringify@2.2.0: {}
 
   queue-microtask@1.2.3: {}
 
@@ -9799,6 +9730,12 @@ snapshots:
 
   tinyspy@2.2.1: {}
 
+  tldts-core@6.1.58: {}
+
+  tldts@6.1.58:
+    dependencies:
+      tldts-core: 6.1.58
+
   tmp@0.0.33:
     dependencies:
       os-tmpdir: 1.0.2
@@ -9811,12 +9748,9 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  tough-cookie@4.1.4:
+  tough-cookie@5.0.0:
     dependencies:
-      psl: 1.9.0
-      punycode: 2.3.1
-      universalify: 0.2.0
-      url-parse: 1.5.10
+      tldts: 6.1.58
 
   tr46@1.0.1:
     dependencies:
@@ -10011,8 +9945,6 @@ snapshots:
 
   universalify@0.1.2: {}
 
-  universalify@0.2.0: {}
-
   universalify@2.0.1: {}
 
   untildify@4.0.0: {}
@@ -10055,11 +9987,6 @@ snapshots:
   uri-js@4.4.1:
     dependencies:
       punycode: 2.3.1
-
-  url-parse@1.5.10:
-    dependencies:
-      querystringify: 2.2.0
-      requires-port: 1.0.0
 
   util-deprecate@1.0.2: {}
 
