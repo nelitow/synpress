@@ -6,7 +6,6 @@
 
 ![Synpress CI](https://github.com/Synthetixio/synpress/workflows/Synpress%20CI/badge.svg?branch=master)
 [![CodeQL](https://github.com/Synthetixio/synpress/actions/workflows/codeql.yml/badge.svg?branch=master)](https://github.com/Synthetixio/synpress/actions/workflows/codeql.yml)
-[![Release CI](https://github.com/Synthetixio/synpress/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/Synthetixio/synpress/actions/workflows/release.yml)
 [![synpress](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/count/ohpeaz/master&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/ohpeaz/runs)
 
 > **We're Hiring 🎉** — Think you have what it takes? See open positions [here](https://mirror.xyz/synpress.eth/FXhd5-7e7wBmYYtfmqkF0h7FhDBRUGuGF6j-D7jPpvM).
