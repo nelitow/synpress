@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "build:cache": "turbo build:cache --filter=@synthetixio/synpress-metamask",
+    "docs:build": "turbo docs:build --filter=docs",
+    "format": "biome format . --write",
+    "format:check": "biome format . --error-on-warnings",
+    "preinstall": "npx only-allow pnpm",
+    "lint": "biome check . --apply",
+    "lint:check": "biome check . --verbose",
+    "lint:unsafe": "biome check . --apply-unsafe",
+    "prepare": "husky install",
+    "serve:test-dapp": "serve node_modules/@metamask/test-dapp/dist -p 9999",
+    "sort-package-json": "sort-package-json 'package.json' '{packages,wallets,examples}/*/package.json'",
+    "sort-package-json:check": "sort-package-json 'package.json' '{packages,wallets,examples}/*/package.json' --check",
+    "test": "turbo test",
+    "test:playwright:headful": "turbo test:playwright:headful --filter=@synthetixio/synpress-metamask --filter=@synthetixio/ethereum-wallet-mock",
+    "test:playwright:headless": "turbo test:playwright:headless --filter=@synthetixio/synpress-metamask --filter=@synthetixio/ethereum-wallet-mock",
+    "update:deps": "ncu -u -ws --root"
+  },
+  "lint-staged": {
+    "package.json": "sort-package-json"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.2.2",
+    "@changesets/cli": "2.27.1",
+    "@metamask/test-dapp": "8.1.0",
+    "commitlint-config-gitmoji": "2.3.1",
+    "husky": "9.0.10",
+    "lint-staged": "15.2.2",
+    "npm-check-updates": "16.14.15",
+    "serve": "14.2.1",
+    "sort-package-json": "2.7.0",
+    "turbo": "1.12.3"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  }
+}

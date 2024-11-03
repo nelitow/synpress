@@ -1,0 +1,55 @@
+### IDE specific
+
+# VS Code
+.vscode
+.history
+
+# JetBrains
+.idea
+
+### OS specific
+
+# macOS
+.DS_Store
+
+### Monorepo
+
+.turbo
+
+### Node
+
+# Heaviest object in the universe
+node_modules
+
+# Compiled output
+dist
+types
+
+# Vitest
+coverage
+
+# Vitepress
+**/.vitepress/dist
+**/.vitepress/cache
+
+### Playwright
+
+test-results
+playwright-report
+playwright/.cache
+
+### Cypress
+**/downloads
+
+### Synpress
+
+.cache-synpress
+
+### Vercel
+
+.vercel
+
+### Cypress
+
+**/ethereum-wallet-mock/cypress
+**/metamask/cypress

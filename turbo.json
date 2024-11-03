@@ -1,0 +1,24 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", "types/**"]
+    },
+    "test": {
+      "dependsOn": ["build"]
+    },
+    "build:cache": {
+      "dependsOn": ["build"]
+    },
+    "test:playwright:headful": {
+      "dependsOn": ["build", "build:cache"]
+    },
+    "test:playwright:headless": {
+      "dependsOn": ["build", "build:cache"]
+    },
+    "docs:build": {
+      "outputs": [".vitepress/dist/**"]
+    }
+  }
+}

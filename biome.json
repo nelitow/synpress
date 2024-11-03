@@ -1,0 +1,32 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "files": {
+    "ignore": [
+      "**/node_modules",
+      ".changeset",
+      ".vscode",
+      ".idea",
+      "**/dist",
+      "**/types",
+      "**/coverage",
+      "**/test-results",
+      "**/playwright-report",
+      "**/.cache-synpress",
+      "**/.vitepress/cache",
+      "**/downloads",
+      "**/.history"
+    ]
+  },
+  "formatter": {
+    "lineWidth": 120,
+    "indentStyle": "space",
+    "indentSize": 2
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "trailingComma": "none",
+      "semicolons": "asNeeded"
+    }
+  }
+}

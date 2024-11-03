@@ -1,0 +1,8 @@
+{
+  "name": "@synthetixio/synpress-tsconfig",
+  "version": "0.0.3",
+  "type": "module",
+  "files": [
+    "base.json"
+  ]
+}

@@ -1,0 +1,79 @@
+name: 🧑‍🔧 Test
+
+on:
+  push:
+    branches:
+      - new-dawn
+  pull_request:
+    paths:
+      - '.github/actions/**/*.yml'
+      - '.github/workflows/**/*.yml'
+      - 'packages/**'
+      - 'wallets/**'
+
+jobs:
+  test-unit:
+    name: Run unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # pin@v4.2.2
+
+      - name: Setup Node & Install dependencies
+        uses: ./.github/actions/setup
+
+      - name: Build project
+        run: pnpm run build
+
+      - name: Run tests
+        run: pnpm run test
+
+  test-e2e-headful:
+    name: Run E2E tests (headful)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # pin@v4.2.2
+
+      - name: Setup Node & Install dependencies
+        uses: ./.github/actions/setup
+
+      - name: Install Foundry
+        uses: foundry-rs/foundry-toolchain@8f1998e9878d786675189ef566a2e4bf24869773 # pin@v1.2.0
+
+      - name: Install Playwright dependencies
+        run: pnpm dlx playwright@1.48.2 install-deps
+
+      # For now, we only need Chromium.
+      - name: Install browsers for Playwright
+        run: pnpm dlx playwright@1.48.2 install chromium
+
+      - name: Build project
+        run: pnpm run build
+
+      - name: Install linux dependencies
+        run: |
+          sudo apt-get install --no-install-recommends -y \
+          xvfb
+
+      - name: Build project
+        run: pnpm run build
+
+      - name: Serve MetaMask Test Dapp
+        run: |
+          pnpm run serve:test-dapp &
+
+      - name: Build cache
+        run: |
+          xvfb-run pnpm run build:cache
+
+      - name: Run E2E tests (headful)
+        run: |
+          xvfb-run pnpm run test:playwright:headful
+
+      - name: Archive Playwright report
+        uses: actions/upload-artifact@v3
+        if: success() || failure()
+        with:
+          name: playwright-report-headful
+          path: |
+            wallets/metamask/playwright-report-headful/
+          if-no-files-found: error
