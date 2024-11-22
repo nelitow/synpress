@@ -248,16 +248,31 @@ module.exports = {
     await playwright.windows(PROVIDER).hover(mainPageElements.accountBar.title);
     await new Promise(resolve => setTimeout(resolve, 100));
 
-    if (chain === 'eth') {
-      await playwright.waitAndClick(
-        PROVIDER,
-        mainPageElements.accountBar.ethRow,
-      );
-    } else if (chain === 'solana') {
-      await playwright.waitAndClick(
-        PROVIDER,
-        mainPageElements.accountBar.solanaRow,
-      );
+    switch (chain) {
+      case 'eth':
+        await playwright.waitAndClick(
+          PROVIDER,
+          mainPageElements.accountBar.ethRow,
+        );
+        break;
+      case 'solana':
+        await playwright.waitAndClick(
+          PROVIDER,
+          mainPageElements.accountBar.solanaRow,
+        );
+        break;
+      case 'btc-taproot':
+        await playwright.waitAndClick(
+          PROVIDER,
+          mainPageElements.accountBar.btcTaprootRow,
+        );
+        break;
+      case 'btc-segwit':
+        await playwright.waitAndClick(
+          PROVIDER,
+          mainPageElements.accountBar.btcSegwitRow,
+        );
+        break;
     }
 
     walletAddress = await playwright

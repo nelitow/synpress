@@ -90,6 +90,10 @@ const accountBar = {
   title: '[data-testid="home-header-account-name"]',
   ethRow: '[data-testid="account-header-chain-eip155:1"]',
   solanaRow: '[data-testid="account-header-chain-solana:101"]',
+  btcTaprootRow:
+    '[data-testid="account-header-chain-bip122:000000000019d6689c085ae165831e93"]',
+  btcSegwithRow:
+    '[data-testid="account-header-chain-bip122:000000000933ea01ad0ee984209779ba"]',
 };
 
 const defaultWallet = {
